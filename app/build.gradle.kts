@@ -2,12 +2,23 @@ plugins {
     id("java")
     id("io.github.ben-manes.versions") version "0.55.0"
     application
+    id("com.diffplug.spotless") version "8.10.4"
 }
 
 group = "hexlet.code"
 version = "1.0-SNAPSHOT"
 
 application { mainClass.set("hexlet.code.App") }
+
+spotless {
+    java {
+        importOrder()
+        removeUnusedImports()
+        googleJavaFormat().aosp()
+        formatAnnotations()
+        leadingTabsToSpaces(4)
+    }
+}
 
 repositories {
     mavenCentral()
