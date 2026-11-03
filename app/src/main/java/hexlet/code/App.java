@@ -4,6 +4,7 @@ import static hexlet.code.Cli.chooseMenuItem;
 import static hexlet.code.Cli.greetUser;
 import static hexlet.code.Engine.run;
 
+import hexlet.code.games.Calc;
 import hexlet.code.games.Even;
 import java.util.Scanner;
 
@@ -12,15 +13,18 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         int menuItem = chooseMenuItem(scanner);
 
+        if (menuItem == 0) {
+            scanner.close();
+            return;
+        }
+
+        String userName = greetUser(scanner);
         switch (menuItem) {
-            case 1:
-                greetUser(scanner);
-                break;
             case 2:
-                String userName = greetUser(scanner);
                 run(new Even(), userName, scanner);
                 break;
-            default:
+            case 3:
+                run(new Calc(), userName, scanner);
                 break;
         }
         scanner.close();

@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Even implements Game {
     private final Random generator;
-    private int generatedNumber;
+    private String answer;
 
     public Even() {
         this.generator = new Random();
@@ -16,11 +16,12 @@ public class Even implements Game {
     }
 
     public String getQuestion() {
-        this.generatedNumber = generator.nextInt(99) + 1;
-        return String.valueOf(this.generatedNumber);
+        int generatedNumber = generator.nextInt(99) + 1;
+        answer = generatedNumber % 2 == 0 ? "yes" : "no";
+        return String.valueOf(generatedNumber);
     }
 
     public String getCorrectAnswer() {
-        return this.generatedNumber % 2 == 0 ? "yes" : "no";
+        return answer;
     }
 }
