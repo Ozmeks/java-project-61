@@ -2,8 +2,9 @@ package hexlet.code;
 
 import static hexlet.code.Cli.chooseMenuItem;
 import static hexlet.code.Cli.greetUser;
-import static hexlet.code.games.Even.playEven;
+import static hexlet.code.Engine.run;
 
+import hexlet.code.games.Even;
 import java.util.Scanner;
 
 public class App {
@@ -17,7 +18,7 @@ public class App {
                 break;
             case 2:
                 String userName = greetUser(scanner);
-                playEven(scanner, userName);
+                run(new Even(), userName, scanner);
                 break;
             default:
                 break;
