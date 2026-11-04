@@ -3,16 +3,14 @@ package hexlet.code;
 import java.util.Scanner;
 
 public class Cli {
-    static int gameCount = 3;
-
-    public static int chooseMenuItem(Scanner scanner) {
+    public static int chooseMenuItem(Scanner scanner, String[] menuItems) {
         System.out.println("Please enter the game number and press Enter.");
-        System.out.println("1 - Greet");
-        System.out.println("2 - Even");
-        System.out.println("3 - Calc");
-        System.out.println("0 - Exit");
+        for (String item : menuItems) {
+            System.out.println(item);
+        }
         String userText = scanner.next();
 
+        int gameCount = menuItems.length - 1;
         int menuItem;
         try {
             menuItem = Integer.parseInt(userText);
