@@ -4,17 +4,20 @@ import static hexlet.code.Cli.chooseMenuItem;
 import static hexlet.code.Cli.greetUser;
 import static hexlet.code.Engine.run;
 
-import hexlet.code.games.Calc;
-import hexlet.code.games.Even;
-import hexlet.code.games.Gcd;
-import hexlet.code.games.Progression;
+import hexlet.code.games.*;
 import java.util.Scanner;
 
 public class App {
     static void main() {
         Scanner scanner = new Scanner(System.in);
         String[] menuItems = {
-            "1 - Greet", "2 - Even", "3 - Calc", "4 - GCD", "5 - Progression", "0 - Exit"
+            "1 - Greet",
+            "2 - Even",
+            "3 - Calc",
+            "4 - GCD",
+            "5 - Progression",
+            "6 - Prime",
+            "0 - Exit"
         };
         int menuItem = chooseMenuItem(scanner, menuItems);
 
@@ -36,6 +39,9 @@ public class App {
                 break;
             case 5:
                 run(new Progression(), userName, scanner);
+                break;
+            case 6:
+                run(new Prime(), userName, scanner);
                 break;
         }
         scanner.close();
