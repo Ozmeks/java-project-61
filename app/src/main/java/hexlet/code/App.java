@@ -8,7 +8,7 @@ import hexlet.code.games.*;
 import java.util.Scanner;
 
 public class App {
-    static void main() {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] menuItems = {
             "1 - Greet",

@@ -10,6 +10,12 @@ version = "1.0-SNAPSHOT"
 
 application { mainClass.set("hexlet.code.App") }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
 spotless {
     java {
         importOrder()
