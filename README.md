@@ -26,16 +26,16 @@ make run-dist
 
 ## Gameplay Examples (Asciinema)
 **Even**
-[![asciicast](https://asciinema.org/a/1272006.svg)](https://asciinema.org/a/1272006)
+[![asciicast](https://asciinema.org/a/1272006.png)](https://asciinema.org/a/1272006)
 
 **Calc**
-[![asciicast](https://asciinema.org/a/1272008.svg)](https://asciinema.org/a/1272008)
+[![asciicast](https://asciinema.org/a/1272008.png)](https://asciinema.org/a/1272008)
 
 **GCD**
-[![asciicast](https://asciinema.org/a/1272009.svg)](https://asciinema.org/a/1272009)
+[![asciicast](https://asciinema.org/a/1272009.png)](https://asciinema.org/a/1272009)
 
 **Progression**
-[![asciicast](https://asciinema.org/a/1272010.svg)](https://asciinema.org/a/1272010)
+[![asciicast](https://asciinema.org/a/1272010.png)](https://asciinema.org/a/1272010)
 
 **Prime**
-[![asciicast](https://asciinema.org/a/1272011.svg)](https://asciinema.org/a/1272011)
+[![asciicast](https://asciinema.org/a/1272011.png)](https://asciinema.org/a/1272011)
