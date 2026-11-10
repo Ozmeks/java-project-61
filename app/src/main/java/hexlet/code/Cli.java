@@ -8,6 +8,7 @@ public class Cli {
         for (String item : menuItems) {
             System.out.println(item);
         }
+        System.out.print("Your choice: ");
         String userText = scanner.next();
 
         int gameCount = menuItems.length - 1;
@@ -20,14 +21,13 @@ public class Cli {
         } catch (NumberFormatException e) {
             menuItem = 0;
         }
-        System.out.println("Your choice: " + menuItem);
 
         return menuItem;
     }
 
     public static String greetUser(Scanner scanner) {
         System.out.println("Welcome to the Brain Games!");
-        System.out.println("May I have your name?");
+        System.out.print("May I have your name? ");
         String userName = scanner.next();
         System.out.println("Hello, " + userName + "!");
         return userName;
