@@ -30,6 +30,6 @@ public class Engine {
             countCorrectAnswers += 1;
             System.out.println("Correct!");
         }
-        System.out.println("Congratulations, " + userName);
+        System.out.println("Congratulations, " + userName + "!");
     }
 }

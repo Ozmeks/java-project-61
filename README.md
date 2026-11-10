@@ -26,16 +26,21 @@ make run-dist
 
 ## Gameplay Examples (Asciinema)
 **Even**
-[![asciicast](https://asciinema.org/a/1272006.svg)](https://asciinema.org/a/1272006)
+
+[![demo](https://img.shields.io/badge/play_demo-asciinema-brightgreen?logo=asciinema&logoColor=white)](https://asciinema.org/a/1272006)
 
 **Calc**
-[![asciicast](https://asciinema.org/a/1272008.svg)](https://asciinema.org/a/1272008)
+
+[![demo](https://img.shields.io/badge/play_demo-asciinema-brightgreen?logo=asciinema&logoColor=white)](https://asciinema.org/a/1272008)
 
 **GCD**
-[![asciicast](https://asciinema.org/a/1272009.svg)](https://asciinema.org/a/1272009)
+
+[![demo](https://img.shields.io/badge/play_demo-asciinema-brightgreen?logo=asciinema&logoColor=white)](https://asciinema.org/a/1272009)
 
 **Progression**
-[![asciicast](https://asciinema.org/a/1272010.svg)](https://asciinema.org/a/1272010)
+
+[![demo](https://img.shields.io/badge/play_demo-asciinema-brightgreen?logo=asciinema&logoColor=white)](https://asciinema.org/a/1272010)
 
 **Prime**
-[![asciicast](https://asciinema.org/a/1272011.svg)](https://asciinema.org/a/1272011)
+
+[![demo](https://img.shields.io/badge/play_demo-asciinema-brightgreen?logo=asciinema&logoColor=white)](https://asciinema.org/a/1272011)
